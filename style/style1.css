@@ -34,3 +34,16 @@ h2 {
       flex-basis: 30%;
       text-align: center;  
     }
+
+.custom-navbar {
+  background-color: beige !important;  
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: goldenrod; 
+}
+
+.custom-navbar .nav-link:hover {
+  color: #A96C0A;   
+}
