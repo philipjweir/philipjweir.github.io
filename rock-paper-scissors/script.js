@@ -1,9 +1,9 @@
 document.querySelector("button").addEventListener("click", function () {
     var playerChoice = document.getElementById("game").value;
 
-    var rock = "Rock";
-    var paper = "Paper";
-    var scissors = "Scissors";
+    var rock = "rock";
+    var paper = "paper";
+    var scissors = "scissors";
 
     var choices = [rock, paper, scissors];
 
@@ -17,8 +17,8 @@ document.querySelector("button").addEventListener("click", function () {
     } 
     else if (
         (playerChoice === rock && cpuChoice === scissors) ||
-        (playerChoice === rock && cpuChoice === rock) ||
-        (playerChoice === scissors && cpuChoice === scissors)
+        (playerChoice === paper && cpuChoice === rock) ||
+        (playerChoice === scissors && cpuChoice === paper)
     ) {
         result = "You win!";
     } else {
