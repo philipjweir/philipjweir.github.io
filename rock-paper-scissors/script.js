@@ -1,9 +1,9 @@
 document.querySelector("button").addEventListener("click", function () {
     var playerChoice = document.getElementById("game").value;
 
-    var rock = "rock";
-    var paper = "paper";
-    var scissors = "scissors";
+    var rock = "ddRock";
+    var paper = "ddPaper";
+    var scissors = "ddScissors";
 
     var choices = [rock, paper, scissors];
 
